@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       colors: {
         darkmode: '#201E1E',
+        primaryPurple: '#B418B4',
+        primaryBlue: '#38B6FF',
+        primaryPink: '#F663F6'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

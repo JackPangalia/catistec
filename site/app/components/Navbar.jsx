@@ -11,22 +11,22 @@ const Navbar = () => {
           width={40}
           height={40}
         />
-        <Link href="/" className="text-lg text-gray-100 font-bold">
+        <Link href="/" className="text-lg text-gray-200 font-bold">
           Catistec
         </Link>
       </div>
 
       <nav className="flex items-center">
         <ul className="flex items-center space-x-4">
-          <li className="text-white hover:text-indigo-500">
+          <li className="text-gray-200 hover:text-indigo-500">
             <Link href="#">About</Link>
           </li>
 
-          <li className="text-white hover:text-indigo-500">
+          <li className="text-gray-200 hover:text-indigo-500">
             <Link href="#">Products</Link>
           </li>
 
-          <li className="text-white hover:text-indigo-500 pr-4 border-r-2 border-zinc-500">
+          <li className="text-gray-200 hover:text-indigo-500 pr-4 border-r-2 border-zinc-500">
             <Link href="#">Future</Link>
           </li>
 
