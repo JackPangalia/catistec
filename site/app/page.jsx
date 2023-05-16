@@ -32,10 +32,10 @@ const Home = () => {
 
       <h1 className = 'flex justify-center items-center p-20 bg-darkmode text-4xl font-bold text-gray-200'>Our Products. </h1>
 
-      <section className = 'grid-cols-2'>
-        <Product />
-        <Product />
-
+      <section className = 'grid grid-cols-3 bg-darkmode gap-20 px-20 pb-20'>
+        <Product imgLink= '/quizzifyimg.png' title = 'Quizzify.AI' description = 'AI generated quizzes at your finger tip'/>
+        <Product imgLink = '/devwisetoolsimg.png' title = 'Devwisetools.com' description = 'Find useful tools to enhance your developing expereince'/>
+        <Product imgLink = '/projectsapdemoimg.png' title = 'ProjectSAT' description = 'Next generation programatic trading platform' />
       </section>
     </>
   );
