@@ -18,15 +18,15 @@ const Navbar = () => {
 
       <nav className="flex items-center">
         <ul className="flex items-center space-x-4">
-          <li className="text-gray-200 hover:text-indigo-500">
+          <li className="text-gray-200 hover:text-primaryPurple hover:font-bold">
             <Link href="#">About</Link>
           </li>
 
-          <li className="text-gray-200 hover:text-indigo-500">
+          <li className="text-gray-200 hover:text-primaryPurple hover:font-bold">
             <Link href="#">Products</Link>
           </li>
 
-          <li className="text-gray-200 hover:text-indigo-500 pr-4 border-r-2 border-zinc-500">
+          <li className="text-gray-200 hover:text-primaryPurple hover:font-bold pr-4 border-r-2 border-zinc-500">
             <Link href="#">Future</Link>
           </li>
 
